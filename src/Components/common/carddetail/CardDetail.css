@@ -1,0 +1,35 @@
+.card-detalles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin-top: 180px ; 
+  padding: 20px; 
+  border-radius: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+ 
+}
+
+.card-detalles:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+.container-img {
+  flex: 1; 
+  max-width: 300px; 
+}
+
+.img {
+  width: 100%;
+  border-radius: 10px; 
+  border: 1px solid #ccc;
+}
+
+

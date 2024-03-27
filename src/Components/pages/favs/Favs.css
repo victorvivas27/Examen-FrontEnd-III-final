@@ -1,0 +1,51 @@
+.dentista-favs {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.button-limpiar {
+  cursor: pointer;
+  position: relative;
+}
+.button-limpiar:hover{
+  color: var(--hover-text-color);
+}
+
+
+.fav-icon {
+  position: relative;
+  top: 70px;
+}
+.container-button-limpiar-back {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 120px;
+ 
+}
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1000; 
+}
+
+.button-limpiar:hover .tooltip {
+  display: block;
+  opacity: 1;
+}
+
+
